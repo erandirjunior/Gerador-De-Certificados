@@ -13,12 +13,10 @@ if (isset($_REQUEST['email']) && $_REQUEST['email']) {
 
         $fnome = explode(' ', $var['name']);
         echo $first_name = utf8_encode($fnome[0]);
-        //echo var_dump($var);
 
         $imagemCertificado = imagem($var["id"]);
-        //var_dump($imagemCertificado);
-        echo $imagemCertificado["file"];
-        //var_dump();
+
+        //echo $imagemCertificado["file"];
         if($imagemCertificado["file"] == "") {
         //print_r($first_name);
             $images = array();
