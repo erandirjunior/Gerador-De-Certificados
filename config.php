@@ -9,7 +9,7 @@ define('TITLE', 'Your Page Title');
 
 /* The logo of the event.
  * It's 120px height if you don't want to adjust the webpage's CSS. */
-define('TOP_LOGO', 'img/logo.png');
+define('TOP_LOGO', 'img/logo.jpg');
 
 /* Database connection credentials.
  * See the dbschema.sql file for the required structure. */
