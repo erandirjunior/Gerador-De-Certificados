@@ -27,7 +27,7 @@ Configure no arquivo conexao.php e func.php para a sua preferência.
 
 Coloque a imagem do certificado na pasta `imagem´ como o nome `foto.jpg´.
 
-No arquivo `func.php´ altere o posicionamento do nome, na função `criandoImage´.
+No arquivo `func.php´ altere o posicionamento do nome, na função `criandoImagem´.
 
 
 ## Formato dos dados e templates de certificados
